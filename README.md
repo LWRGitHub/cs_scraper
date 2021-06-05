@@ -55,14 +55,14 @@ My Friend was telling me how he got a free Mac Book Air from Craigslist! I was l
 
 ***Enter command***
 
-![Image of the terminal just before entering the command to run the scraper](http://raw.githubusercontent.com/LWRGitHub/cs_scraper/master/img/start.png)
+![Image of the terminal just before entering the command to run the scraper](https://raw.githubusercontent.com/LWRGitHub/cs_scraper/master/img/start.png?token=AMXINNFFM44HHAV45RJVNVTAYVAUQ)
 
 
 ***Runing***
 
-![Image of the terminal runing the web scraper](http://raw.githubusercontent.com/LWRGitHub/cs_scraper/master/img/runing.png)
+![Image of the terminal runing the web scraper](https://raw.githubusercontent.com/LWRGitHub/cs_scraper/master/img/runing.png?token=AMXINND6VGLJDAPMDFQO7QTAYVASE)
 
 
 ***App sending you a Text***
 
-![Image of the app having found something & starting to text a number.](http://raw.githubusercontent.com/LWRGitHub/cs_scraper/master/img/text.png)
+![Image of the app having found something & starting to text a number.](https://raw.githubusercontent.com/LWRGitHub/cs_scraper/master/img/text.png?token=AMXINNDJRDIDFVY7K4SOCJTAYVAWO)
