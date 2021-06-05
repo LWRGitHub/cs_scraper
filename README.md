@@ -50,7 +50,7 @@ My Friend was telling me how he got a free Mac Book Air from Craigslist! I was l
     - `python3 video_game_craigslist.py`
     - `python3 video_game_trash_nothing.py`
 
-- NOTE: No text message is upon start, although if you want you can uncomment `old_data = []` & you will recive a text when you first run the file.
+- NOTE: No text message is sent upon start, although if you want you can uncomment `old_data = []` & you will recive a text when you first run the file.
 
 
 ## IMG
