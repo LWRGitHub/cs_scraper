@@ -19,7 +19,7 @@ soup = bs(r.content)
 old_data = soup.find_all("h3", attrs={"class": "result-heading"})
 
 # uncomment `old_data` to recive all items when you first run the app
-old_data = []
+# old_data = []
 
 all_href = []
 for tag in old_data:

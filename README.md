@@ -16,7 +16,7 @@ My Friend was telling me how he got a free Mac Book Air from Craigslist! I was l
 
 1. `pip3 install -r requirements.txt`
 2. Creat a free account on [TextFree.us](https://messages.textfree.us/login)
-3. [Download Chrome Driver](https://sites.google.com/achromium.org/chromedriver/downloads)
+3. [Download Chrome Driver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
     - NOTE: You have Google Chrome & the Chrome Driver must be the same vertion
     - FIND VERTION: 
         - Open Google Chrome
@@ -49,6 +49,8 @@ My Friend was telling me how he got a free Mac Book Air from Craigslist! I was l
     - `python3 mac_trash_nothing.py`
     - `python3 video_game_craigslist.py`
     - `python3 video_game_trash_nothing.py`
+
+- NOTE: No text message is upon start, although if you want you can uncomment `old_data = []` & you will recive a text when you first run the file.
 
 
 ## IMG
