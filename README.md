@@ -3,7 +3,7 @@ Free Apple products & more through scrapping Craigslist/Trash Nothing! These pyt
 
 ***The story behind this build***
 
-My Friend was telling me how he got a free Mac Book Air from Craigslist! I was like wow, & I started looking at Craigslist through out the day. But I was not finding anything, although my friend keep finding tons of free apple product one he sold for over $2K! So I build a web scraper & the rest is history!
+My Friend was telling me how he got a free Mac Book Air from Craigslist! I was like wow, & I started looking at Craigslist through out the day. But I was not finding anything, although my friend keep finding tons of free apple & yet I could not get to them quick enough! So I build a web scraper & the rest is history!
 
 ## Tech Used
 - Python
