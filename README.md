@@ -7,7 +7,7 @@ My Friend was telling me how he got a free Mac Book Air from Craigslist! I was l
 
 ## Tech Used
 - Python
-- Bs4
+- BeautifulSoup 4
 - Selenium
 - requests
 - dotenv
