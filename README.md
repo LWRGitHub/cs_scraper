@@ -1,5 +1,5 @@
-# Scrapping Craigslist/Trash Nothing!
-Free Apple products & more through scrapping Craigslist/Trash Nothing! These python files use bs4 & selenium to scrape the web & send you a text message when you find that awesome thing your looking for! The file are setup to for searching for free apple products, computers, laptops, & video games. 
+# Scraping Craigslist/Trash Nothing!
+Free Apple products & more through scraping Craigslist/Trash Nothing! These python files use bs4 & selenium to scrape the web & send you a text message when you find that awesome thing your looking for! The file are setup to for searching for free apple products, computers, laptops, & video games. 
 
 ***The story behind this build***
 
@@ -17,8 +17,8 @@ My Friend was telling me how he got a free Mac Book Air from Craigslist! I was l
 
 1. `pip3 install -r requirements.txt`
 2. Creat a free account on [TextFree.us](https://messages.textfree.us/login)
-3. [Download Chrome Driver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
-    - NOTE: You have Google Chrome & the Chrome Driver must be the same vertion
+3. [Download Chrome Driver](https://sites.google.com/a/chromium.org/chromedriver/downloads); confused, need more info? Checkout [this YouTube video](https://youtu.be/Xjv1sY630Uc).
+    - NOTE: You must have Google Chrome installed & the Chrome Driver must be the same vertion.
     - FIND VERTION: 
         - Open Google Chrome
         - click 3 dots in upper right corner,
