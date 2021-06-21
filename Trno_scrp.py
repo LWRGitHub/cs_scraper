@@ -5,7 +5,7 @@ import time
 from Env import Env
 
 
-class Crg_scrp:
+class Trno_scrp:
     
     def __init__(self, look_for):
         # dotenv
@@ -52,7 +52,7 @@ class Crg_scrp:
                 print(recent_data)
                 print("--------------------- /old ------------------ ")
                 print("--------------------- new ------------------ ")
-                print(old_data)
+                print(self.old_data)
                 print("--------------------- /new ------------------ ")
                 print("--------------------- /Compair old & new ------------------ ")
                 
