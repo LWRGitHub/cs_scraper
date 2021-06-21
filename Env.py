@@ -11,3 +11,4 @@ class Env:
         self.MSM_NUM = os.getenv('MSM_NUM')
         self.CHROME_DRIVER_PATH = os.getenv('CHROME_DRIVER_PATH')
         self.CRAIGSLIST_ZIP = os.getenv('CRAIGSLIST_ZIP')
+        self.RADIAOUS = os.getenv('TRASH_NOTHING_RADIAOUS')
