@@ -39,6 +39,8 @@ My Friend was telling me how he got a free Mac Book Air from Craigslist! I was l
     `CHROME_DRIVER_PATH=/some/path/to/chromedriver`
     - search your zip code on trashnothing.com & copy the radiaous in the URL
     `TRASH_NOTHING_RADIAOUS=555555`
+    - input how many miles away form your zipcode you want to search in Craigslist
+    `CRAIGSLIST_DISTANCE=3`
 6. choice file to run
     - `python3 apple_craigslitst_scrape.py`
     - `python3 apple_trash_nothing.py`

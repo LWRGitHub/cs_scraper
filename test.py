@@ -1,5 +1,10 @@
-from Trno_scrp import Trno_scrp
+from Crg_scrp import Crg_scrp
 
-trno_scrp = Trno_scrp("apple")
+crg_scrp = Crg_scrp("printer")
 
-trno_scrp.indefinite_scrp()
+crg_scrp.indefinite_scrp()
+
+# https://sfbay.craigslist.org/search/zip?query=printer&search_distance=3&postal=94102
+# https://sfbay.craigslist.org/search/zip?query=printer&search_distance=3&postal=94102
+# https://sfbay.craigslist.org/search/zip?query=printer&search_distance=3&postal=94102
+# https://sfbay.craigslist.org/search/zip?query={self.look_for}&search_distance={self.env.DISTANCE}&postal={self.env.CRAIGSLIST_ZIP}

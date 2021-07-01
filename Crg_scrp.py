@@ -14,7 +14,7 @@ class Crg_scrp:
 
         # bs4
         # set old data
-        self.r = requests.get(f"https://sfbay.craigslist.org/search/zip?query={look_for}&search_distance=100&postal={self.env.CRAIGSLIST_ZIP}")
+        self.r = requests.get(f"https://sfbay.craigslist.org/search/zip?query={look_for}&search_distance={self.env.DISTANCE}&postal={self.env.CRAIGSLIST_ZIP}")
         self.soup = bs(self.r.content)
         self.old_data = self.soup.find_all("h3", attrs={"class": "result-heading"})
     
@@ -29,7 +29,7 @@ class Crg_scrp:
 
         while True:
             # get new data
-            r = requests.get(f"https://sfbay.craigslist.org/search/zip?query={self.look_for}&search_distance=100&postal={self.env.CRAIGSLIST_ZIP}")
+            r = requests.get(f"https://sfbay.craigslist.org/search/zip?query={self.look_for}&search_distance={self.env.DISTANCE}&postal={self.env.CRAIGSLIST_ZIP}")
             soup = bs(r.content)
             h3 = soup.find_all("h3", attrs={"class": "result-heading"})
 
@@ -107,9 +107,9 @@ class Crg_scrp:
                     emojionearea_editor = driver.find_element_by_class_name('emojionearea-editor')
 
                     if message_to_send != '':
-                        emojionearea_editor.send_keys(f"https://sfbay.craigslist.org/search/zip?query={self.look_for}&search_distance=100&postal={self.env.CRAIGSLIST_ZIP} Check Craigslist {self.look_for} stuff! {message_to_send} ")
+                        emojionearea_editor.send_keys(f"https://sfbay.craigslist.org/search/zip?query={self.look_for}&search_distance={self.env.DISTANCE}&postal={self.env.CRAIGSLIST_ZIP} Check Craigslist {self.look_for} stuff! {message_to_send} ")
                     else:
-                        emojionearea_editor.send_keys(f'Something is wrong with Craigslist {self.look_for} bot https://sfbay.craigslist.org/search/zip?query={self.look_for}&search_distance=100&postal={self.env.CRAIGSLIST_ZIP}')
+                        emojionearea_editor.send_keys(f'Something is wrong with Craigslist {self.look_for} bot https://sfbay.craigslist.org/search/zip?query={self.look_for}&search_distance={self.env.DISTANCE}&postal={self.env.CRAIGSLIST_ZIP}')
 
                     #send
                     sendButton = driver.find_element_by_id('sendButton')
